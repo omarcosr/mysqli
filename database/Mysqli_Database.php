@@ -144,7 +144,7 @@ class Mysqli_Database {
 					break;
 
 				case 'row':
-					return 'fetch_row';
+					$method = 'fetch_row';
 					break;
 
 				default:
